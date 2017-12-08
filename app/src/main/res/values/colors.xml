@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#f0f0f0</color>
+    <color name="colorAccent">#b5b5b6</color>
+    <color name="activity_bg">#f6f6f6</color>
+    <color name="theme_color">#ffffff</color>
+    <color name="theme_color_deep">#f6f6f6</color>
+    <color name="theme_red">#EB5B58</color>
+    <color name="backgroundcolor">#f7f8f8</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_slight">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="blue">#009ed3</color>
+    <color name="red">#ee3b3b</color>
+    <color name="pink">#ff6666</color>
+    <color name="yellow">#ffd400</color>
+    <color name="green">#33cc66</color>
+    <color name="gray">#666666</color>
+
+    <color name="gray_f5">#f5f5f5</color>
+    <color name="gray_0">#f0f0f0</color>
+    <color name="gray_1">#b5b5b5</color>
+    <color name="gray_2">#999999</color>
+    <color name="gray_3">#666666</color>
+    <color name="gray_4">#333333</color>
+
+    <color name="alpha_9">#9000</color>
+    <color name="alpha_6">#6000</color>
+    <color name="alpha_3">#3000</color>
+    <color name="alpha_1">#1000</color>
+    <color name="themred">#EF4E4B</color>
+    <!-- 深色字体颜色 -->
+    <color name="text_color_deep">#333333</color>
+    <!-- 深色字体颜色 -->
+    <color name="text_color_deep_middle">#727272</color>
+    <!-- 浅色字体颜色 -->
+    <color name="text_color_light">#989898</color>
+    <!-- 浅色hint字体颜色 -->
+    <color name="text_color_light_hint">#c5c5c5</color>
+
+    <!-- 深色边框颜色 -->
+    <color name="line_color_deep">#d2d2d2</color>
+    <!-- 浅色边框颜色 -->
+    <color name="line_color_light">#e7e7e7</color>
+
+    <!-- 深色背景颜色 -->
+    <color name="bg_color_deep">#ececec</color>
+    <!-- 浅色背景颜色 -->
+    <color name="bg_color_light">#f6f6f6</color>
+
+    <!-- 深色bar颜色 -->
+    <color name="bar_color_deep">#f2f2f2</color>
+    <!-- 浅色bar颜色 -->
+    <color name="bar_color_light">#f7f7f7</color>
+    <color name="sa_theme_color">#393939</color>
+    <color name="sa_theme_color_deep">#000000</color>
+    <color name="sa_activity_bg">#f0f0f0</color>
+    <color name="bg">#F6F6F6</color>
+</resources>

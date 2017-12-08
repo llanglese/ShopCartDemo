@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/StyleActivity">
+
+    <include layout="@layout/layout_header_bar" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.dev.pulltorefresh.PullToRefreshScrollView
+            android:id="@+id/psv_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="45dp"
+            android:scrollbars="none">
+            <com.project.shopcart.uitls.NonScrollListView
+                android:id="@+id/lv_display"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:cacheColorHint="@color/transparent"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:scrollbars="none" />
+        </com.dev.pulltorefresh.PullToRefreshScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_color_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <CheckBox
+                        android:id="@+id/check_quanxuan"
+                        android:layout_width="wrap_content"
+                        android:checked="false"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:text="全选"
+                        android:textSize="14sp"
+                        android:textColor="@color/alpha_9"
+                        android:drawablePadding="10dp"
+                        android:layout_marginLeft="10dp"
+
+                        android:drawableLeft="@drawable/quanxuan_checkbox"
+
+                        />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal"
+                            android:paddingLeft="10dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="合计:"
+                                android:textColor="@color/text_color_deep_middle"
+                                android:textSize="14sp"
+                                />
+                            <TextView
+                                android:id="@+id/tv_sum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="¥0.0"
+                                android:textColor="@color/theme_red"
+                                android:textSize="14sp"
+                                android:layout_marginRight="10dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_pay"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/red"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="结算"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tv_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(0)"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

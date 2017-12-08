@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/btn_white_grayline_left_pressed_radius5" android:state_focused="true"/>
+    <item android:drawable="@drawable/btn_white_grayline_left_pressed_radius5" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_white_grayline_left_normal_radius5" android:state_focused="false" android:state_pressed="false"/>
+
+</selector>
